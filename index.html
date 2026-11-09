@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Harbourline Enquiry Agent</title>
+  <meta name="description" content="A portfolio demo: an AI agent that drafts replies to customer enquiries for a fictional plumbing firm, with a person approving every reply.">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<main>
+  <header>
+    <p class="eyebrow">Portfolio demo</p>
+    <h1>Harbourline Enquiry Agent</h1>
+  </header>
+
+  <p class="notice"><strong>This is a demonstration project.</strong> Harbourline Plumbing &amp; Heating is a fictional company. It has no real customers, and this site offers no real services.</p>
+
+  <p>The Harbourline Enquiry Agent shows how a small business can answer customer enquiries faster with AI while keeping a person in charge of every reply. It is built by Raynor as a freelance portfolio project.</p>
+
+  <h2>What it does</h2>
+  <div class="card">
+    <ol class="flow">
+      <li>Reads new enquiries sent to the demo company's test inbox or web form.</li>
+      <li>Uses Claude (Anthropic's AI model) to classify each one: new job, quote, emergency, complaint, follow-up or spam.</li>
+      <li>Looks up the fictional company's price list, policies, service area and free appointment times through read-only tools.</li>
+      <li>Drafts a reply and posts it for a person to <strong>approve, edit or reject</strong>.</li>
+      <li>Only after approval: sends the reply from the demo inbox and adds a tentative booking to the demo calendar.</li>
+    </ol>
+  </div>
+
+  <h2>Google account access</h2>
+  <p>The app connects only to a Google account created for this demo. It uses Gmail to read enquiries and send approved replies, and Google Calendar to check availability and add tentative bookings. See the <a href="privacy.html">privacy policy</a> for exactly what is accessed and why.</p>
+
+  <footer class="muted">
+    <p><a href="privacy.html">Privacy policy</a> · Built by <a href="https://github.com/Raynor1511">Raynor</a> · Questions: <a href="https://github.com/Raynor1511/harbourline-demo/issues">open an issue</a></p>
+  </footer>
+</main>
+</body>
+</html>
